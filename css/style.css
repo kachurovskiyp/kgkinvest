@@ -770,7 +770,7 @@ a.nice-link:hover:after {
 .header__navigation--opened {
   display: block;
   position: absolute;
-  bottom: -200px;
+  bottom: -250px;
   left: 0;
   right: 0;
   z-index: 2;
@@ -827,6 +827,7 @@ a.nice-link:hover:after {
 
   .header__navigation {
     display: block;
+    bottom: -200px;
     margin-top: 40px;
     border-bottom: 1px solid white;
   }
@@ -848,18 +849,10 @@ a.nice-link:hover:after {
   margin-bottom: 20px;
 }
 
-.main__img-wrapper {
-  position: relative;
-}
-
 .main__img-desc {
-  position: absolute;
-  bottom: 3px;
   margin: 0;
   padding: 5px;
   color: white;
-  text-shadow: 1px 1px 2px black;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main__desc--green {
@@ -934,6 +927,19 @@ a.nice-link:hover:after {
   .main {
     margin-left: 19%;
   }
+
+  .main__img-wrapper {
+    position: relative;
+  }
+
+  .main__img-desc {
+    position: absolute;
+    bottom: 3px;
+    margin: 0;
+    padding: 5px;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 .apartaments {
   margin-top: 30px;
@@ -978,13 +984,27 @@ a.nice-link:hover:after {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   background-color: #415A68;
 }
 
 .footer__contact {
-  margin-right: 30px;
-  line-height: 30px;
+  font-size: 15px;
+  margin-right: 0;
+  line-height: 20px;
   color: white;
+}
+
+.footer__logo {
+  width: 150px;
+}
+
+@media (min-width: 1023px) {
+  .footer__contact {
+    margin-right: 30px;
+    line-height: 30px;
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

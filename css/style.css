@@ -862,6 +862,15 @@ a.nice-link:hover:after {
   padding: 0 10px;
 }
 
+.apartaments__avialable {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .apartaments__img {
   width: 90%;
   display: block;
@@ -871,6 +880,44 @@ a.nice-link:hover:after {
 @media (min-width: 767px) {
   .apartaments__header {
     font-size: 26px;
+  }
+}
+.available {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #cc3300;
+  border-bottom: 1px solid #cc3300;
+}
+
+.available__table {
+  border: 1px solid white;
+  margin: 0 auto;
+}
+.available__table td {
+  padding: 5px;
+}
+.available__table td, .available__table th, .available__table tr {
+  border: 1px solid white;
+}
+.available__table--desktop {
+  display: none;
+}
+
+.available__check {
+  background-color: #14ff0a;
+}
+
+.available__collspan {
+  text-align: center;
+}
+
+@media (min-width: 767px) {
+  .available__table--desktop {
+    display: table;
+  }
+  .available__table--mobile {
+    display: none;
   }
 }
 .contact {

@@ -866,7 +866,8 @@ a.nice-link:hover:after {
   text-decoration: none;
   color: inherit;
   display: block;
-  color: white;
+  color: #14ff0a;
+  text-decoration: underline;
   text-align: center;
   margin-bottom: 10px;
 }

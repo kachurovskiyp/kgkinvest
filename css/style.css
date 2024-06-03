@@ -781,8 +781,8 @@ a.nice-link:hover:after {
 .main__pin {
   display: block;
   position: absolute;
-  top: 30%;
-  left: 33%;
+  top: 61%;
+  left: 22%;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -793,22 +793,12 @@ a.nice-link:hover:after {
   fill: #000000;
 }
 .main__pin--second {
-  top: 43%;
+	top: 39%;
+  left: 48%;
 }
 .main__pin--third {
-  top: 55%;
-}
-.main__pin--fourth {
-  left: 62%;
-  top: 38%;
-}
-.main__pin--fifth {
-  left: 62%;
-  top: 47%;
-}
-.main__pin--sixth {
-  left: 62%;
-  top: 57%;
+  top: 22%;
+	left: 71%;
 }
 .main__pin--reserved {
   background-color: #0ac1ff;
@@ -823,7 +813,7 @@ a.nice-link:hover:after {
   margin-top: 5px;
 }
 .main__images img {
-  width: 33%;
+  width: 49%;
   border: none;
   background-color: transparent;
 }
@@ -901,9 +891,6 @@ a.nice-link:hover:after {
 .available__table td, .available__table th, .available__table tr {
   border: 1px solid white;
 }
-.available__table--desktop {
-  display: none;
-}
 
 .available__check {
   background-color: #14ff0a;
@@ -913,14 +900,6 @@ a.nice-link:hover:after {
   text-align: center;
 }
 
-@media (min-width: 767px) {
-  .available__table--desktop {
-    display: table;
-  }
-  .available__table--mobile {
-    display: none;
-  }
-}
 .contact {
   display: flex;
   justify-content: center;

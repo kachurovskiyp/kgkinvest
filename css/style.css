@@ -748,6 +748,10 @@ a.nice-link:hover:after {
   padding-bottom: 10px;
 }
 
+.main__sub-header {
+	text-align: center;
+}
+
 .main__header {
   text-align: center;
   margin: 0;
@@ -758,6 +762,8 @@ a.nice-link:hover:after {
   margin: 0;
   padding: 5px;
   color: white;
+	width: 100%;
+	text-align: center;
 }
 
 .main__desc--green {

@@ -731,6 +731,10 @@ a.nice-link:hover:after {
   width: 130px;
 }
 
+.header__contact {
+  color: white;
+}
+
 .header__fb-link {
   text-decoration: none;
   color: inherit;
@@ -740,17 +744,13 @@ a.nice-link:hover:after {
   text-align: center;
 }
 
-.nav__link {
-	color: #14ff0a;
+.nav__wrap {
 	text-align: center;
 }
 
-.nav__link:visited {
+.nav__link {
 	color: #14ff0a;
-}
-
-.header__contact {
-  color: white;
+	text-align: center;
 }
 
 @media (min-width: 767px) {
@@ -766,10 +766,6 @@ a.nice-link:hover:after {
   padding-bottom: 10px;
 }
 
-.main__sub-header {
-	text-align: center;
-}
-
 .main__header {
   text-align: center;
   margin: 0;
@@ -780,8 +776,6 @@ a.nice-link:hover:after {
   margin: 0;
   padding: 5px;
   color: white;
-	width: 100%;
-	text-align: center;
 }
 
 .main__desc--green {
@@ -805,8 +799,8 @@ a.nice-link:hover:after {
 .main__pin {
   display: block;
   position: absolute;
-  top: 61%;
-  left: 22%;
+  top: 30%;
+  left: 33%;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -817,12 +811,22 @@ a.nice-link:hover:after {
   fill: #000000;
 }
 .main__pin--second {
-	top: 39%;
-  left: 48%;
+  top: 43%;
 }
 .main__pin--third {
-  top: 22%;
-	left: 71%;
+  top: 55%;
+}
+.main__pin--fourth {
+  left: 62%;
+  top: 38%;
+}
+.main__pin--fifth {
+  left: 62%;
+  top: 47%;
+}
+.main__pin--sixth {
+  left: 62%;
+  top: 57%;
 }
 .main__pin--reserved {
   background-color: #0ac1ff;
@@ -837,7 +841,7 @@ a.nice-link:hover:after {
   margin-top: 5px;
 }
 .main__images img {
-  width: 49%;
+  width: 33%;
   border: none;
   background-color: transparent;
 }
@@ -915,15 +919,31 @@ a.nice-link:hover:after {
 .available__table td, .available__table th, .available__table tr {
   border: 1px solid white;
 }
+.available__table--desktop {
+  display: none;
+}
 
 .available__check {
   background-color: #14ff0a;
 }
-
+.available__check--reservation {
+  background-color: #0ac1ff;
+}
+.available__check--sold {
+  background-color: #cc3300;
+}
 .available__collspan {
   text-align: center;
 }
 
+@media (min-width: 767px) {
+  .available__table--desktop {
+    display: table;
+  }
+  .available__table--mobile {
+    display: none;
+  }
+}
 .contact {
   display: flex;
   justify-content: center;

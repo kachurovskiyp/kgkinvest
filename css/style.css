@@ -805,7 +805,7 @@ a.nice-link:hover:after {
 .main__pin {
   display: block;
   position: absolute;
-  top: 61%;
+  top: 56%;
   left: 22%;
   width: 20px;
   height: 20px;
@@ -817,12 +817,20 @@ a.nice-link:hover:after {
   fill: #000000;
 }
 .main__pin--second {
-	top: 39%;
-  left: 48%;
+	top: 40%;
+  left: 44%;
 }
 .main__pin--third {
-  top: 22%;
-	left: 71%;
+  top: 34%;
+	left: 53%;
+}
+.main__pin--fourth {
+	top: 24%;
+	left: 68%;
+}
+.main__pin--fifth {
+	top: 19%;
+	left: 75%;
 }
 .main__pin--reserved {
   background-color: #0ac1ff;
